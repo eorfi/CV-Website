@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 24px auto;
+            padding: 0 20px 28px;
+            background-color: #f7f8fa;
+            color: #222;
+        }
+        h1 {
+            text-align: center;
+            color: #1f2937;
+            margin-bottom: 18px;
+            transition: color 0.25s ease, transform 0.25s ease, text-shadow 0.25s ease;
+        }
+        h1:hover {
+            color: #0b66c3;
+            transform: translateY(-3px) scale(1.02);
+            text-shadow: 0 6px 14px rgba(11, 102, 195, 0.2);
+        }
+        .my_contact {
+            display: flex; /* Use flexbox to arrange the contact information */
+            flex-direction: row; /* Arrange items in a row */
+            justify-content: center; /* Center the items horizontally */
+            flex-wrap: wrap;
+            gap: 14px 28px; /* Add some space between the items */
+            font-size: 16px;
+            text-align: center; /* Center the text within each item */
+            max-width: 1100px; /* Set a maximum width for the contact information */
+            margin: 0 auto; /* Center the contact information horizontally */
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 12px 16px;
+            border: 1px solid #e5e7eb;
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+        }
+        .my_contact:hover {
+            transform: translateY(-4px);
+            border-color: #bfdbfe;
+            background-color: #fcfdff;
+            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+        }
+        .contact-label {
+            font-weight: bold; /* Make the contact labels bold */
+            color: #334155; /* Dark gray color for contact labels */
+            transition: color 0.25s ease;
+        }
+        .contact-label:hover {
+            color: #0b66c3;
+        }
+        a {
+            color: #0b66c3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1f2937;
+            margin-top: 40px; /* Add some space above the headings */
+            margin-bottom: 14px;
+            transition: color 0.25s ease, transform 0.25s ease;
+        }
+        h2:hover {
+            color: #0b66c3;
+            transform: translateY(-2px);
+        }
+        .Technical_Skills,.Professional_experience, .Education, .Courses, .Languages {
+            max-width: 1100px; /* Set a maximum width for the content */
+            margin: 0 auto; /* Center the content horizontally */
+            background: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            padding: 14px 20px;
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease, background-color 0.25s ease;
+        }
+        .Technical_Skills:hover,
+        .Professional_experience:hover,
+        .Education:hover,
+        .Courses:hover,
+        .Languages:hover {
+            transform: translateY(-4px);
+            border-color: #bfdbfe;
+            background-color: #fcfdff;
+            box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+        }
+        .Technical_Skills ul,
+        .Professional_experience ul,
+        .Education ul,
+        .Courses ul,
+        .Languages ul {
+            margin: 0;
+            padding-left: 28px;
+        }
+        .Technical_Skills li,
+        .Professional_experience li,
+        .Education li,
+        .Courses li,
+        .Languages li {
+            text-align: left; /* Align text to the left for better readability */
+            line-height: 1.5; /* Add some spacing between lines for better readability */
+            margin-bottom: 8px; /* Add some space between list items */
+        }
+
+        @media (max-width: 700px) {
+            body {
+                margin: 12px auto;
+                padding: 0 12px 20px;
+            }
+            .my_contact {
+                justify-content: flex-start;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            h1,
+            h2,
+            .my_contact,
+            .Technical_Skills,
+            .Professional_experience,
+            .Education,
+            .Courses,
+            .Languages {
+                transition: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Eyad Elorfi</h1>
+    <p class="my_contact">
+        <span class="contact-label">Email: <a href="mailto:eyad.elorfi@gamil.com">eyad.elorfi@gamil.com</a></span>
+        <span class="contact-label">Phone: <a href="https://wa.me/201020493156" target="_blank" rel="noopener noreferrer">+201020493156</a></span> 
+        <span class="contact-label">GitHub: <a href="https://github.com/eorfi">github.com/eorfi</a></span>
+        <span class="contact-label">Linkedin: <a href="https://www.linkedin.com/in/eyad-elorfi-1944312bb/">www.linkedin.com/in/eyad-elorfi-1944312bb/</a></span>
+    </p>
+    <h2>Technical Skills</h2>
+    <div class="Technical_Skills">
+        <ul>
+            <li>Python: Python Turtle, Pandas Framework, Tkinter, PyQt, Json, Beautiful Soup (web 
+            scraping), Selenium Web Driver, Flask (web development), Matplotlib
+            </li>
+            <li>
+                Web development using Node.js: Node.js, JavaScript, HTML 5, Cascading Style 
+                Sheets (CSS), Bootstrap, React.js, Express.js 
+            </li>
+            <li>
+                C++ Basics
+            </li>
+            <li>
+                Database: PostgreSQL, SQLite
+            </li>
+            <li>
+                Git
+            </li>
+        </ul>
+    </div>
+    <h2>Professional Experience </h2>
+    <div class="Professional_experience">
+        <ul>
+            <li>
+                Teaching Assistant - Thebes Academy Oct 2025 - Present
+            </li>
+            <li>
+                Visioneering Intralogistics – Internship, July 2025 – August 2025
+                MVision Warehouse Control System (WCS)
+                Developing Python scripts for tote and shuttle management algorithms. 
+            </li>
+            <li>
+                Egypt Radio and Television – Internship, June 2025
+                Cyber Security using Python training and internship 
+            </li>
+        </ul>
+    </div>
+    <h2>Education</h2>
+    <div class="Education">
+        <ul>
+            <li>
+                Bachelor of Science – BSc in Business Information Systems BIS from Thebes Academy 
+                for Computer and Administrative Sciences, Maadi Branch (Sept 2021 – May 2025) - 
+                GPA: 3.47
+            </li>
+            <li>
+                Currently pursuing a Graduate Diploma of Computer Science at the Graduate School 
+                of Statistical Research – Cairo University. 
+            </li>
+        </ul>
+    </div>
+    <h2>Courses</h2>
+    <div class="Courses">
+        <ul>
+            <li>
+                Udemy: 100 Days of Code: The Complete Python Pro Bootcamp 
+            </li>
+            <li>
+                Udemy: The Complete Full-Stack Web Development Bootcamp
+            </li>
+            <li>
+                Udemy: Practical C++: Learn C++ Basics Step by Step
+            </li>
+            <li>
+                Udemy: Python Data Structures & Algorithms + LEETCODE Exercises
+            </li>
+        </ul>
+    </div>
+    <h2>Languages</h2>
+    <div class="Languages">
+        <ul>
+            <li>
+                Arabic: Native
+            </li>
+            <li>
+                English: Native speaker
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html> 
